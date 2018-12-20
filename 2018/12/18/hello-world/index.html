@@ -327,6 +327,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://www.wujianzhong.cn/2018/12/18/hello-world/",
+  owner: 'mycentre',
+  repo: 'mycentre.github.io',
+  oauth: {
+    client_id: 'd9ea1efb1c0aa59029a2',
+    client_secret: '4f15396316097f757ffd8ad3c833b24ca1694d71',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
